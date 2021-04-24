@@ -1,0 +1,207 @@
+header{
+  height:fit-content;
+}
+#content{
+  margin-top: 100px;
+  display:flex;
+  justify-content:center;
+  width:100%;
+}
+.offering-content{
+    padding-top: 25px;
+    width:80%;
+}
+
+.myServices{
+  display:flex;
+  flex-direction:column;
+  color: #33AB8E;
+  font-size:18px;
+  padding:0 0 35px;
+}
+.myServices p {
+  align-self:center;
+}
+.login{
+  align-self:flex-end;
+}
+  .Service{
+    display:flex;
+    width: 100%;
+    height:150px;
+    border-top: solid 1px rgba(57,62,68,1);
+    align-items:center;
+    justify-content:space-around;
+  }
+  .service-items{
+    width:20%;
+  }
+
+  .service_img{
+    background-size:cover;
+    background-repeat:no-repeat;
+    width: 12%;
+    height: 105px;
+    transition: all .3s;
+    cursor: pointer;
+  }
+  .service_title{
+    width: 30%;
+    font-size: 22px;
+    line-height:38px;
+    color: #393E44;
+    transition: color .3s ease;
+  }
+  .service_title a:hover{
+    color: #64686c;
+  }
+  .service_price{
+    font-size:18px;
+    color: #393E44;
+  }
+
+
+/*CHECK*/
+#check-container{
+  padding-top:150px;
+    width: 100%;
+}
+#check-content{
+  max-width:680px;
+  margin:0 auto;
+}
+#check-congratulations{
+  text-align:center;
+  margin-bottom:40px;
+}
+#check-congratulations h4{
+  padding:20px 0;
+  font-weight:lighter;
+
+}
+#check-border{
+  border:solid 1px #393E44;
+  padding:40px 0;
+}
+#check-look-another{
+  width:fit-content;
+  margin:0 auto;
+  font-size:18px;
+  text-align:center;
+  margin-top:30px;
+  text-decoration:underline;
+  color:#33ab8e;
+}
+#check-look-another:hover{
+  font-size:18px;
+  text-align:center;
+  margin-top:30px;
+  text-decoration:none;
+  color:#33ab8e;
+  cursor:pointer;
+}
+#appoitment-box__timing{
+  display:inline-block;
+  width:240px;
+  border-right:solid 1px #393E44;
+}
+#booked-time-info{
+  margin:8px 60px;
+  text-align:center;
+}
+
+#booked-time-info_day-of-month{
+  font-size: 48px;
+  margin-bottom: 10px;
+  line-height: 1em;
+}
+#booked-time-info__month{
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+#booked-time-info__separator{
+  border-top-color: rgba(57,62,68,1);
+  width: 24px;
+  height: 1px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  margin: 10px auto;
+}
+#day-and-hour{
+  font-size: 16px;
+  line-height: 24px;
+}
+#booked-details{
+  vertical-align:top;
+  display:inline-block;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  width: 350px;
+  text-align: left;
+  padding-left: 45px;
+}
+#booked-details__price{
+  display:inline-block;
+}
+#booked-details__service-name{
+  margin-bottom: 2px;
+  font-size:18px;
+}
+#booked-details__duration-price{
+
+}
+#schedule-summary-info-text{
+  display:inline-block;
+}
+.booked-details__price-delimiter{
+  display:inline-block;
+  width: 0;
+  height: 16px;
+  border-right: 1px solid;
+  margin: 0 15px;
+}
+@media all and (max-width:768px){
+  #appoitment-box__timing {
+    display: inline-block;
+    box-sizing:border-box;
+    width: 100%;
+    border-right: none;
+}
+
+  .Service{
+    flex-direction:column;
+    height:fit-content;
+    margin-bottom:40px;
+  }
+  .service-items{
+    width:100%;
+    margin-bottom:20px;
+  }
+  .service_img{
+    background-size:cover;
+    background-repeat:no-repeat;
+    display:block;
+    width: 100%;
+    height: 420px;
+    cursor: pointer;
+  }
+  .service_title{
+    font-size: 22px;
+    line-height:38px;
+    color: #393E44;
+    transition: color .3s ease;
+  }
+  .service_price{
+    font-size:18px;
+    color: #393E44;
+  }
+  .service_action{
+    width:100%;
+  }
+}
+@media all and (max-width:480px){
+  .offering-content{
+      width:100%;
+      text-align:center;
+  }
+}

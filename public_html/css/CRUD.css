@@ -1,0 +1,28 @@
+.main {
+  display:flex;
+  flex-direction:column;
+}
+.items{
+  flex-grow:1;
+}
+form{
+  display:flex;
+  flex-direction:column;
+}
+.form-items{
+  flex-grow:1;
+
+}
+
+.form-button{
+  flex-grow:0;
+  flex-shrink:1;
+  width:114px;
+}
+
+input,textarea{
+  width:100%;
+}
+textarea{
+  height:300px;
+}

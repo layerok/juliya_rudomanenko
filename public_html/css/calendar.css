@@ -1,0 +1,345 @@
+.session-time,.session-price{
+  display:inline-block;
+  line-height:2;
+  font-size:14px;
+}
+
+.sticky-containe{}
+.sidebar-date{
+  margin-top: 20px;
+  height:30px;
+  font-size: 14px;
+  line-height: 2;
+  opacity: 1;
+}
+.sidebar-price{
+  padding-top: 13px;
+}
+.sidebar-section{
+  position:relative;
+  background-color: white;
+  padding-bottom: 18px;
+  border-bottom:solid 1px rgba(57,62,68,1);
+}
+.session-price::before{
+  content: '';
+display: inline-block;
+height: 1em;
+border-left: 1px solid;
+margin-right: calc(.81em - 1px);
+margin-left: .51em;
+}
+.header-back-btn{
+  color: #33ab8e;
+  margin-bottom: 50px;
+
+}
+.disabled{
+    cursor:not-allowed;
+    opacity: .4;
+}
+.btn-back-txt{
+  font-size:16px;
+  color: #33ab8e;
+}
+.sidebar-container{
+  position:relative;
+  vertical-align:top;
+  display:inline-block;
+  width:25%;
+  margin-left:10%;
+  border:solid 1px rgba(57,62,68,1);
+  padding:20px;
+}
+.sidebar-action{
+    margin-top: 20px;
+    width: 100%;
+    height: 42px;
+}
+ .btn-primary{
+    width:100%;
+    padding: 6px 20px;
+    color: #FFFFFF;
+    background-color: #33ab8e;
+    border: 1px solid#33ab8e;
+}
+#calendar-collapse-switch{
+  color: #33AB8E;
+  text-align:center;
+  padding: 11px 5px 32px;
+  cursor:pointer;
+}
+.calendar-controls__content{
+  width:100%;
+  display: inline-block;
+}
+.visitor-header{
+  padding: 20px 0 20px 0;
+
+}
+.sub-temp-header-title{
+  margin-top: 20px;
+}
+.sectioned-page{
+width:60%;
+display:inline-block;
+}
+.sidebar-header{
+  line-height: 33px;
+  font-size: 22px;
+}
+#calendar_sidebar{
+  width:94%;
+  padding-left:6%;
+
+}
+#choiceOfDate{
+  min-width: 980px;
+  max-width:70%;
+  margin:75px auto;
+  margin-bottom:0;
+}
+  .calendar-header{
+    width:50%;
+  }
+  .controls-range-btn-prev{
+    position:relative;
+    left:1px;
+    border-right:0;
+  }
+  .btn-default:active ,.btn-default:focus , .btn-default{
+    outline:none;
+  }
+
+  .btn-default:hover{
+    background-color: #393E44!important;
+    color: rgba(255,255,255,1)!important
+  }
+  .btn-default{
+    color: #393E44!important;
+    background-color: rgba(255,255,255,1)!important;
+    border: 1px solid #393E44;
+    padding: 0 9px;
+
+  }
+  .calendar-header .btn-default{
+    line-height: calc(26px - 1px)!important;
+    height: 26px;
+    box-sizing: border-box;
+    font-size:12px;
+  }
+  .footerButton{
+    padding:2px 24px;
+  }
+  .day-header{
+    line-height: 37px;
+    padding-bottom: 5px;
+    border: 0;
+  }
+  th, td, thead, tbody{
+    box-sizing:border-box;
+    border-color:rgba(57,62,68,0.2295081);
+  }
+  td, th{
+    border-style:solid;
+    border-width:1px;
+    padding:0;
+    vertical-align:top;
+  }
+  table{
+
+    box-sizing:border-box;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 1em;
+  }
+  td{
+    height:63px;
+    padding:5px 0 20px 10px;
+    cursor:pointer;
+  }
+  td:hover{
+    border:solid 2px #39ae92;
+  }
+  tr{
+    box-sizing:border-box;
+    height:63px;
+  }
+  .selected{
+    border:solid 2px #39ae92!important;
+    color:#39ae92;
+  }
+.time-slots-list1{
+  margin:0;
+  margin-right:5%;
+  width:30%;
+  text-align:center;
+  display:inline-block;
+}
+.time-slots-list2{
+  vertical-align:top;
+  margin:0;
+  margin-right:5%;
+  width:30%;
+  text-align:center;
+  display:inline-block;
+}
+.time-slots-list3{
+  vertical-align:top;
+  margin:0;
+  width:30%;
+  text-align:center;
+  display:inline-block;
+}
+
+.calendar-page-times-of-day{
+  margin: 0;
+  width:100%
+}
+.past{
+  color:lightgrey;
+}
+.time-slots-list__slot{
+    position: relative;
+    margin-bottom: 13px;
+    line-height: 37px;
+    text-align: center;
+    height: 37px;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(57,62,68,0.22950819672131)
+}
+.time-slots-list__slot:hover{
+  border:solid 2px #39ae92!important;
+  color:#39ae92;
+}
+.calendar-hours{
+
+}
+.sidebar-time-of-day{
+   font-size:14px;
+}
+.dynamic-form-attribute{
+  padding-right:24px;
+}
+.label{
+  margin-left: -2px;
+  text-align: left;
+  padding: 22px 11px 10px;
+  display: inline-block;
+  position: relative;
+}
+.form{
+  width:60%;
+}
+.dynamic-form-attribute__input{
+  min-height: 36px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  width:100%;
+  display:block;
+}
+.label{
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  padding: 22px 11px 10px 0;
+  display: inline-block;
+  position: relative;
+}
+.dynamic-form-attribute__textarea{
+      padding-bottom: 0;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 3px;
+      min-height: 4.7em;
+      display:block;
+      width:100%;
+      -webkit-appearance: textarea;
+      background-color: white;
+      -webkit-rtl-ordering: logical;
+      resize: auto;
+      cursor: text;
+      white-space: pre-wrap;
+      overflow-wrap: break-word;
+      border-width: 1px;
+      border-color: rgba(57,62,68,1);
+      border-style: solid;
+      border-image: initial;
+      padding: 2px;
+      height:150px;
+}
+.requiredFields{
+  padding-left: 0;
+  opacity: .6;
+  color: #393E44;
+}
+@media only screen and (max-width:768px){
+
+  .form {
+    width: 100%;
+}
+  .time-slots-list1 {
+    margin-right: 1.25%;
+    width: 32.5%;
+}
+.time-slots-list2 {
+    margin-right: 1.25%;
+    width: 32.5%;
+}
+.time-slots-list3 {
+    width: 32.5%;
+}
+  .time-slots-list__slot {
+    position: relative;
+    margin-bottom: 3px;
+    line-height: 37px;
+    text-align: center;
+    height: 37px;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(57,62,68,0.22950819672131);
+}
+  #choiceOfDate{
+    min-width: 480px;
+    max-width:100%;
+    margin:75px auto;
+    margin-bottom:0;
+    padding:20px;
+    box-sizing:border-box;
+  }
+  .sectioned-page {
+    width: 100%;
+}
+.sidebar-container {
+    position: static;
+    box-sizing: border-box;
+    width: 100%;
+    margin-left: 0;
+    border: none;
+    padding:0;
+}
+#calendar_sidebar {
+    box-sizing:border-box;
+    width: 100%;
+    padding-left: 0;
+}
+}
+@media only screen and (max-width:480px){
+  #choiceOfDate{
+    min-width: 320px;
+    max-width:100%;
+    margin:75px auto;
+    margin-bottom:0;
+    padding:20px;
+    box-sizing:border-box;
+  }
+}

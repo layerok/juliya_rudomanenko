@@ -1,0 +1,182 @@
+/* main.css by Bill Weinman http://bw.org/contact
+  v 1.0 - 2012-05-20
+*/
+/*RESET*/
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, ol, ul, li,
+blockquote, pre, form, label, legend, table, caption, tbody, tfoot, thead,
+tr, th, td, article, aside, canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, section, summary, audio, video,button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    outline:0;
+    vertical-align: baseline;
+    background: transparent;
+}
+picture,img{
+  width:100%;
+  height:100%;
+}
+button{
+  cursor:pointer;
+}
+input{
+    font: normal normal normal 18px/1.75em montserrat,sans-serif;
+    border-color: rgba(57,62,68,1);
+    background-color: #FFFFFF;
+    color: #393E44;
+    font-size: 14px;
+    font-size: 16px;
+    border-radius: 0;
+    border-width: 1px;
+    border-style: solid;
+    padding-top: .6em;
+    padding-bottom: .6em;
+    padding-left: 5px;
+    box-sizing: border-box;
+    line-height: 1.5em;
+    min-height: 42px;
+    margin: 0;
+}
+body{
+  overflow-x:hidden;
+  max-width:100%;
+  margin: 0 auto;
+  min-width:980px;
+  line-height: 1;
+  font-size: 16pt;
+  font-family:'Montserrat', serif;
+  color: #393E44;
+}
+
+li { margin-left: 2em; }
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+h1 { font-size: 200%; }
+h2 { font-size: 180%; }
+h3 { font-size: 160%; }
+h4 { font-size: 140%; }
+h5 { font-size: 120%; }
+h6 { font-size: 100%; }
+/*RESET ENDS*/
+.color_1{
+  color:#393E44;
+}
+a:focus{
+  outline:0;
+}
+a:hover,a:active{
+  outline:0;
+}
+a{
+  color:#484E55;
+  text-decoration:none;
+}
+.clearfix:after,.clearfix:before{
+  content:"";
+  display:table;
+}
+.clearfix:after{
+  clear:both;
+}
+.inline{
+  display:inline-block;
+}
+
+.admin_menu{
+  width:80%;
+  display:inline-flex;
+  flex-direction:column;
+}
+.admin_menu a{
+  width:300px;
+  margin-bottom:10px;
+}
+.btn-primary{
+    margin-bottom: 1px;
+    justify-content:center;
+    display:inline-flex;
+    align-items:center;
+    color: #FFFFFF;
+    background-color: #33AB8E;
+    border: 1px solid#33AB8E;
+    font-size:18px;
+    padding: 8px 20px;
+    cursor: pointer;
+    transition-property: border-color, background-color;
+    transition-duration: 0.4s, 0.4s;
+    transition-delay: 0s, 0s;
+}
+.btn-small{
+    margin-bottom: 1px;
+    justify-content:center;
+    display:inline-flex;
+    align-items:center;
+    color: #FFFFFF;
+    background-color: #33AB8E;
+    border: 1px solid#33AB8E;
+    font-size:12px;
+    padding: 4px 10px;
+    cursor: pointer;
+    transition-property: border-color, background-color;
+    transition-duration: 0.4s, 0.4s;
+    transition-delay: 0s, 0s;
+}
+.btn-primary:hover{
+  background-color: #388e79;
+  border: 1px solid #388e79;
+}
+.message{
+  border:2px solid #8D0D19;
+  color: #8D0D19;
+  margin:1em 0;
+  padding:1em;
+  font-weight:bold;
+}
+.spinner-cube
+{
+    position:fixed;
+    width:100%;
+    height:100%;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,0.50);
+    z-index:999;
+}
+.spinner-cube > div
+{
+  left:50%;
+  top:50%;
+  background-color: #33AB8E;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+
+
+  -webkit-animation: cuberotate 1.8s infinite ease-in-out;
+  animation: cuberotate 1.8s infinite ease-in-out;
+}
+
+.spinner-cube div:nth-child(2)
+{
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+@-webkit-keyframes cuberotate {
+    25% { -webkit-transform: translateX(22px) rotate(-90deg) scale(0.5) }
+    50% { -webkit-transform: translateX(22px) translateY(22px) rotate(-180deg) }
+    75% { -webkit-transform: translateX(0px) translateY(22px) rotate(-270deg) scale(0.5) }
+    100% { -webkit-transform: rotate(-360deg) }
+  }
+@keyframes cuberotate {
+    25% { transform: translateX(42px) rotate(-90deg) scale(0.5); }
+    50% { transform: translateX(42px) translateY(42px) rotate(-179deg); }
+    50.1% { transform: translateX(42px) translateY(42px) rotate(-180deg); }
+    75% { transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5); }
+    100% { transform: rotate(-360deg); }
+}

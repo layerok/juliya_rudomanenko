@@ -1,0 +1,26 @@
+.content-wrapper{
+  display:flex;
+  width:100%;
+  justify-content:center;
+}
+.content{
+  display:flex;
+  flex-direction:column;
+  width:80%;
+  align-items:center;
+}
+.service-action{
+  width:100px;
+}
+.service-action a{
+    color:white;
+}
+.service-image{
+  width:100%;
+}
+.service-description{
+  width:100%;
+}
+.content div{
+  margin-top:20px;
+}

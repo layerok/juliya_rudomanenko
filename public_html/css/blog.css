@@ -1,0 +1,156 @@
+.all-posts{
+  cursor:pointer;
+}
+.post-nav{
+  width:80%;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+
+section{
+  margin-top:60px;
+  display:flex;
+  flex-direction:column;
+  width:100%;
+  align-items:center;
+}
+article{
+  display:flex;
+  flex-direction:row;
+  cursor:pointer;
+  height:381px;
+  margin-top: 15px;
+  width:80%;
+  border: 1px solid rgb(57, 62, 68,0.3);
+
+}
+.post-items{
+  flex:1 1 auto;
+  width:50%;
+}
+.post-items:nth-child(2){
+  display:flex;
+  justify-content:center;
+  flex-direction:row;
+}
+.image{
+  background-size:cover;
+  background-repeat: no-repeat;
+  width:50%;
+  display:inline-block;
+}
+
+.description{
+  padding:5%;
+  display:flex;
+  flex-direction:column;
+  color:rgb(57, 62, 68,0.8);
+}
+
+.user{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  padding-bottom: 18px;
+}
+.post_heading h6{
+  font-weight:normal;
+}
+.post_heading{
+  margin-bottom: 12px;
+  font-size:28px;
+}
+.post_description{
+  word-wrap:break-word;
+  font-size:18px;
+  line-height:27px;
+  height:fit-content;
+}
+.stats{
+  margin-top: 10px;
+  padding: 6px 0;
+  font-size:12px;
+}
+.post_user_info{
+  font-size:12px;
+}
+.post_date{
+  padding:5px 0;
+}
+.dot{
+  vertical-align: middle;
+  width: 2px;
+  height: 2px;
+  border-radius: 1px;
+  background-color:rgb(57, 62, 68,0.3);
+}
+.post_heading-overlay{
+  word-wrap:break-word;
+}
+.post_description-overlay{
+  word-wrap:break-word;
+}
+.post-container-overlay{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  margin:0 auto;
+  margin-bottom:40px;
+  padding: 30px 0;
+  border: solid 1px lightgrey;
+}
+.post-inner-overlay{
+  padding-top:60px;
+  width:80%;
+}
+.post_description1{
+  line-height: 27px!important;
+  font-size:18px!important;
+  height:fit-content;
+  padding-bottom:20px;
+}
+.message{
+  border:2px solid #8D0D19;
+  color: #8D0D19;
+  margin:1em 0;
+  padding:1em;
+  font-weight:bold;
+}
+
+.btn-primary:hover,.btn-small:hover{
+  background-color: #388e79;
+  border: 1px solid #388e79;
+}
+@media only screen and (max-width:768px){
+  .post_description1{
+    line-height: 20px!important;
+    font-size:14px!important;
+    height:fit-content;
+  }
+  .post-inner-overlay{
+
+  }
+  .post-container-overlay{
+    border: none;
+  }
+  article{
+    flex-direction:column;
+    height:fit-content;
+  }
+  .post-items{
+    width:100%;
+  }
+
+}
+@media only screen and (max-width:480px){
+  .post-inner-overlay{
+    padding: 0 30px;
+  }
+article{
+  width:90%;
+}
+.post-nav{
+  width:90%;
+}
+}

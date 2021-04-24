@@ -1,0 +1,59 @@
+body{
+  font-family:'Montserrat', serif;
+}
+p{
+  font:18px;
+  margin:0;
+  color: #656E78;
+}
+#main{
+  width:400px;
+  margin:30px auto;
+}
+#loginTitle{
+  font-weight:normal;
+  text-align:center;
+}
+#loginButton{
+  display:block;
+  cursor:pointer;
+  color:#ffffff;
+  background-color: rgba(51, 171, 142, 1);
+  height: 48px !important;
+}
+form{
+  width:320px;
+  margin:0 auto;
+}
+input{
+  font-size:16px;
+  width:100%;
+  border:none;
+  border-bottom:solid 1px grey;
+  margin-bottom:40px;
+}
+.backslash{
+  position:absolute;
+  top:15px;
+  left:0;
+  width:30px;
+  height:1px;
+  background-color: black;
+  transform:rotate(45deg);
+}
+.forwardslash{
+  position:absolute;
+  top:15px;
+  left:0;
+  width:30px;
+  height:1px;
+  background-color: black;
+  transform:rotate(-45deg);
+}
+.exit{
+  position:absolute;
+  top:50px;
+  right:50px;
+  width:30px;
+  height:30px;
+}

@@ -1,0 +1,124 @@
+header{
+  width:100%;
+  background-color: white;
+}
+.header_container{
+  max-width:88%;
+  min-width:940px;
+  margin:0 auto;
+}
+#mainNav ul{
+  margin:0;
+  display:inline-block;
+  list-style-type:none;
+  font-size:14px;
+  font-weight:normal;
+}
+#mainNav ul li{
+  display:inline-block;
+  margin-right:20px;
+}
+nav{
+margin:25px 0;
+float:right;
+display:inline-block;
+}
+.Logo_text{
+  display:inline-block;
+  margin:25px 0;
+}
+.burger{
+  display:none;
+}
+
+.header_container{
+  height:70px;
+  overflow:hidden;
+  -webkit-transition-property: height;
+  -webkit-transition-duration: .25s;
+  -webkit-transition-timing-function:easy;
+}
+.layer{
+
+ width:25px;
+ height:5px;
+ background-color:#393E44;
+ margin:5px;
+ -webkit-transition-property: transform;
+ -webkit-transition-duration: .25s;
+ -webkit-transition-timing-function:ease;
+}
+.layer1{
+ -webkit-transform:translate(0px,10px) rotate(45deg);
+}
+.layer3{
+ -webkit-transform:translate(0px,-10px) rotate(-45deg);
+}
+.layer2{
+ -webkit-transform:rotate(45deg);
+}
+.accordion{
+ height:200px;
+}
+.opacity100{
+ opacity:1;
+ visibility:visible;
+}
+@media only screen and (max-width:940px){
+  .header_container{
+    max-width:88%;
+    min-width:768px;
+    margin:0 auto;
+  }
+  body{
+    min-width:768px;
+  }
+}
+@media only screen and (max-width:768px){
+  .header_container{
+    max-width:88%;
+    min-width:480px;
+    margin:0 auto;
+  }
+  .current_page{
+    color:#33AB8E;
+  }
+  .hide{
+    display:none;
+  }
+   body{
+     min-width:480px;
+   }
+   #mainNav ul li {
+     display:block;
+     margin:20px 0;
+     font-size:18px;
+   }
+   #mainNav ul{
+     clear:both;
+     display:block;
+     text-align:center;
+   }
+   nav {
+     display:block;
+     float:none;
+   }
+  .burger {
+    margin-top:15px;
+    float:right;
+    display:inline-block;
+  }
+  .Logo_text{
+    text-align:center;
+  }
+}
+@media only screen and (max-width:480px){
+  .header_container{
+    max-width:88%;
+    min-width:320px;
+    margin:0 auto;
+  }
+  body{
+    min-width:320px;
+  }
+}
